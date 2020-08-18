@@ -12,33 +12,7 @@
 </div>
 
 <div class="messages">
-  <div class="message-bar">
-    <div class="name-date">
-      <div class="user1">
-        Tom
-      </div>
-      <div class="date1">
-        1/1
-      </div>
-    </div>
-      <div class="message1">
-        おはよう
-      </div>
-  </div>
-
-    <div class="message-bar">
-    <div class="name-date">
-      <div class="user1">
-        Sim
-      </div>
-      <div class="date1">
-        1/2
-      </div>
-    </div>
-      <div class="message1">
-        こんばんは
-      </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f|%>
