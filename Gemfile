@@ -59,9 +59,13 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 
+<<<<<<< HEAD
 gem 'pry-rails'
 
 gem 'mini_magick'
 
 gem 'image_processing', '~> 1.2'
 
+=======
+gem 'pry-rails'
+>>>>>>> parent of 07503f7... Merge pull request #5 from bre0711/画像投稿機能の実装
